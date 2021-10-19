@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>undefined null bigint</h1>
+    <script>
+      // undefined
+      let firstName;
+      console.log(firstName);
+      firstName = "Rocky";
+      console.log(typeof firstName, firstName);
+
+      //   null //= nothing
+      let myvar = null; //bug, error
+      console.log(typeof myvar, myvar);
+      myvar = "I Love Cat";
+      console.log(myvar);
+
+      // bigInt
+      let myNumber = 123;
+      console.log(myNumber);
+      console.log(Number.MAX_SAFE_INTEGER);
+      let bigIntNum =
+        BigInt(
+          35564654645456445646465456465465465445646546464494984518941696105841
+        );
+      console.log(bigIntNum); //way 1
+      let bigIntTwo =
+        233541421321654564546546544261625879878512010232101652303620326544n;
+      console.log(bigIntTwo);
+    </script>
+  </body>
+</html>

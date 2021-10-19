@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>template string</h1>
+    <script>
+      let fullName = "Rocky Das";
+      let age = 20;
+
+      // my name is Rocky Das and my age is 22
+      let aboutMe = "my name is " + fullName + " and my age is " + age;
+      console.log(aboutMe);
+
+      let aboutMeWithTS = `my name is ${fullName} and my age is ${age}`;
+      console.log(aboutMeWithTS);
+    </script>
+  </body>
+</html>

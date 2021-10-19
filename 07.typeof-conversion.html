@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>TypeOf & string to number, number to string conversion</h1>
+    <script>
+      //typeof operator
+      // data types
+      // 1.string
+      // 2.Number
+      // 3.booleans
+      // 4.undefined
+      // 5.null
+      // 5.bigInt
+      const fullName = "Rocky Das";
+      let age = 20;
+      console.log(typeof age);
+      console.log(typeof fullName);
+      console.log(typeof "RD");
+
+      //convert number to string
+      let numToStr = age + ""; //way1
+
+      console.log(numToStr);
+      console.log(typeof numToStr);
+
+      age = String(age); //way2
+      console.log(age);
+      console.log(typeof age);
+
+      //convert string to number
+      let strNum = "20"; //way1
+      let strToNum = +strNum;
+      console.log(strToNum);
+      console.log(typeof strToNum);
+
+      strNum = Number(strNum);
+      console.log(strNum);
+      console.log(typeof strNum);
+    </script>
+  </body>
+</html>
