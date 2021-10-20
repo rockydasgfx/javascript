@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>and-or-operator</h2>
+
+    <script>
+      // and or operator
+      let firstName = "Rocky";
+      let age = 20;
+    //   if (firstName[0] === "R") {
+    //     console.log("your name start with R");
+    //   }
+    //   if (age > 18) {
+    //     console.log("you are above 18");
+    //   }
+
+    // &&-and 
+    if(firstName[0] === 'R' && age > 18){
+        console.log("your name start with R and you are above 18")
+    } else{
+        console.log('inside false')
+    }
+    
+    // ||-or 
+    if(firstName[0] === 'R' || age > 18){
+        console.log('if value')
+    }
+    else{
+        console.log('else value')
+    }
+    </script>
+  </body>
+</html>

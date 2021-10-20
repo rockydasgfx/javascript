@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>nested if else</h2>
+    <script>
+      // nested if else
+      // game/winning number 7;
+      // 7 your gusess is right
+      //5 too low
+      //10 too high
+
+      let winningNum = 7;
+      let userGuess = +prompt("guess a number");
+      //   let strToNum = +userGuess;
+
+      if (userGuess === winningNum) {
+        console.log("your gusess is right");
+      } else {
+        if (userGuess < winningNum) {
+          console.log("too low");
+        } else {
+          console.log("too high");
+        }
+      }
+    </script>
+  </body>
+</html>
